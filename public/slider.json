@@ -1,0 +1,21 @@
+[
+    {
+      "id": 123,
+      "image": "https://i.ibb.co/7GhJ0XN/BigSale1.jpg",
+      "category": "watch",
+      "live": true
+    },
+    {
+      "id": 456,
+      "image": "https://i.ibb.co/CbR35vp/BigSale2.jpg",
+      "category": "headphone",
+      "live": false
+    },
+    {
+      "id": 789,
+      "image": "https://i.ibb.co/TrTdhBx/BigSale3.jpg",
+      "category": "mouse",
+      "live": true
+    }
+]
+  
