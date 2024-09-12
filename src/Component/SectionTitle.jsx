@@ -9,7 +9,6 @@ const SectionTitle = ({heading,subHeading}) => {
 
         </div>
         <div className="divider"></div>
-
          </div>
     );
 };

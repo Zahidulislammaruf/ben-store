@@ -56,7 +56,7 @@ const ItemCard = ({item}) => {
       }else{
         toast.error('Login First')
       }
-      
+
     }
     
     return (

@@ -6,6 +6,7 @@ import DisplayProduct from "../Display Product/DisplayProduct";
 const Home = () => {
     return (
         <div>
+            
             <ReactHelmet title={"Home"} ></ReactHelmet>
             <Banner></Banner>
             <Category></Category>
