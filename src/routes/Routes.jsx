@@ -21,52 +21,51 @@ import AddProduct from "../Admin/AddProduct/AddProduct";
 export const router = createBrowserRouter([
     {
       path: "/",
-      element: <Main></Main>,
+      element:<Main></Main>,
       children : [
         {
             path : '/',
-            element : <Home></Home>
+            element :<Home></Home>
         },
-       
         {
           path : '/product/:id',
-          element : <ProductDetails></ProductDetails>,
+          element :<ProductDetails></ProductDetails>,
         },
         {
           path : '/singup',
-          element : <Singup></Singup>
+          element :<Singup></Singup>
         },
         {
           path : '/login',
-          element : <LoginPage></LoginPage>
+          element :<LoginPage></LoginPage>
         },
         {
           path : '/saved',
-          element : <PrivateRoute><Saved></Saved></PrivateRoute>
+          element :<PrivateRoute><Saved></Saved></PrivateRoute>
         },
         {
           path : 'profile',
-          element : <PrivateRoute><Profile></Profile></PrivateRoute>
+          element :<PrivateRoute><Profile></Profile></PrivateRoute>
         },
         {
           path : '/cart',
-          element : <PrivateRoute><UserCart></UserCart></PrivateRoute>
+          element :<PrivateRoute><UserCart></UserCart></PrivateRoute>
         },
         {
           path : '/cookies',
-          element : <Cookies></Cookies>
+          element :<Cookies></Cookies>
         },
         {
           path : '/terms',
-          element : <Terms></Terms>
+          element :<Terms></Terms>
         },
         {
           path : '/privacy',
-          element : <Privacy></Privacy>
+          element :<Privacy></Privacy>
         },
         {
           path : '/order',
-          element : <PrivateRoute><Order></Order></PrivateRoute>
+          element :<PrivateRoute><Order></Order></PrivateRoute>
         }
       ]
     },
@@ -90,7 +89,6 @@ export const router = createBrowserRouter([
           path : 'addproduct',
           element : <AddProduct></AddProduct>
         }
-      
       ]
     }
   ]);
