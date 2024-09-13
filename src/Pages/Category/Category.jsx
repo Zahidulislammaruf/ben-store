@@ -15,17 +15,14 @@ const Category = () => {
                 </div>
                 <div className=" text-[20px] font-mono">
                     <h2>Tshirt</h2>
-
                 </div>
             </div>
             <div className="hover:bg-black hover:text-white flex justify-center items-center border-2 border-blue-200 p-6 gap-2 ">
                 <div className=" text-3xl ">
                 <FiWatch />
-
                 </div>
                 <div className="text-[20px] font-mono">
                     <h2>Watch</h2>
-
                 </div>
             </div>
             <div className="hover:bg-black hover:text-white flex justify-center items-center border-2 border-blue-200 p-6 gap-2 ">
