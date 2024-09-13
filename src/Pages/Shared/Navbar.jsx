@@ -48,7 +48,7 @@ const Navbar = () => {
         </details>
       </li>
       <li><a>Item 3</a></li>
- 
+
     </ul>
   </div>
   <div className="navbar-end flex gap-8">
@@ -84,16 +84,17 @@ const Navbar = () => {
     </div>
   
      </>
+
       :
       <div className="tooltip tooltip-bottom" data-tip="User">
     <Link to='/singup'><CiUser className="text-2xl md:text-4xl " /></Link>
      </div>
-     
-     }
 
+     }
   </div>
-</div>   
-        </div>
+
+    </div> 
+ </div>
     );
 };
 
