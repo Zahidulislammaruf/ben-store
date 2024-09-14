@@ -13,21 +13,14 @@ const LoginPage = () => {
     const onSubmit = async (data) => {
         loginUser(data.email, data.password)
         .then(result=>{
-         // console.log(result.user)
+         
          toast.success('Login Successfully')
-         setTimeout(() => { // Adding setTimeout for a 2-second delay
+         setTimeout(() => { 
           navi('/');
           
         }, 2000);
-
-         
-
-        })
-        
-        
-        
-       // console.log(data)
-      };
+      })
+    };
     return (
         <div>
           <div className="hero mt-24 mb-32  bg-white">
@@ -48,7 +41,7 @@ const LoginPage = () => {
          <Toaster
   position="top-right"
   reverseOrder={true}
-/>
+        />
          <div className="form-control">
            <label className="label">
              <span className="label-text">Password</span>
@@ -76,8 +69,8 @@ const LoginPage = () => {
        <ToastContainer />
      </div>
    </div>  
-        </div>
-    );
+  </div>
+ );
 };
 
 export default LoginPage;
