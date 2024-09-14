@@ -27,30 +27,37 @@ export const router = createBrowserRouter([
             path : '/',
             element :<Home></Home>
         },
+
         {
           path : '/product/:id',
           element :<ProductDetails></ProductDetails>,
         },
+
         {
           path : '/singup',
           element :<Singup></Singup>
         },
+
         {
           path : '/login',
           element :<LoginPage></LoginPage>
         },
+
         {
           path : '/saved',
           element :<PrivateRoute><Saved></Saved></PrivateRoute>
         },
+
         {
           path : 'profile',
           element :<PrivateRoute><Profile></Profile></PrivateRoute>
         },
+
         {
           path : '/cart',
           element :<PrivateRoute><UserCart></UserCart></PrivateRoute>
         },
+
         {
           path : '/cookies',
           element :<Cookies></Cookies>
@@ -59,10 +66,12 @@ export const router = createBrowserRouter([
           path : '/terms',
           element :<Terms></Terms>
         },
+
         {
           path : '/privacy',
           element :<Privacy></Privacy>
         },
+        
         {
           path : '/order',
           element :<PrivateRoute><Order></Order></PrivateRoute>
