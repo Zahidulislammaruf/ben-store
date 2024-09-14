@@ -15,36 +15,38 @@ const DashBoard = () => {
                     <NavLink to='statistics'><IoStatsChart />
 Statistics</NavLink>
                 </li>
+
                 <li>
                     <NavLink to='allproduct'><BsFillCartCheckFill />
 
 All Product</NavLink>
-                </li>
-                <li>
+            </li>
+
+            <li>
                     <NavLink to='alluser'><FaUsers />
 All User</NavLink>
-                </li>
-                <li>
+        </li>
+            <li>
                     <NavLink to='addproduct'><FaCartPlus />
 
 Add Item</NavLink>
-                </li>
+            </li>
                 <div className=" divider divider-neutral" />
-                <li>
+             <li>
                     <NavLink to='/'><FaHome />
 
 Home</NavLink>
-                </li>
-                <li>
+            </li>
+             <li>
                     <NavLink to='statistics'><FaCartPlus />
 
 Add Item</NavLink>
-                </li>
-                <li>
+            </li>
+            <li>
                     <NavLink to='statistics'><FaCartPlus />
 
 Add Item</NavLink>
-                </li>
+            </li>
             </ul>
             </div> 
             <div className=" flex-1">
